@@ -1,0 +1,53 @@
+# ========================
+# 1. Mac/OS System Files
+# ========================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ========================
+# 2. Node.js (Backend & Frontend)
+# ========================
+# Dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn.lock
+
+# Build files (For when we build React later)
+Frontend/build/
+Frontend/dist/
+
+# ========================
+# 3. Python & Django (ML Service)
+# ========================
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django local database
+db.sqlite3
+db.sqlite3-journal
+
+# ========================
+# 4. User Uploads (PDFs)
+# ========================
+# We don't want to push real resumes to GitHub!
+Backend/uploads/*
+!Backend/uploads/.gitkeep
+
+# ========================
+# 5. Environment Variables & Secrets
+# ========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem

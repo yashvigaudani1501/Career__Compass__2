@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add some premium base styling */
+body {
+  @apply bg-slate-50 text-slate-900 antialiased font-sans;
+}
